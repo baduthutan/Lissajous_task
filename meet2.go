@@ -18,7 +18,7 @@ var Aqua = color.RGBA{0x00, 0x99, 0xff, 0xff}
 var Brown = color.RGBA{0x99, 0x33, 0x00, 0xff}
 var Rose = color.RGBA{0xff, 0x00, 0x66, 0xff}
 var Green = color.RGBA{0x00, 0xcc, 0x00, 0xff}
-var palette = []color.Color{Red, Blue, Yellow, Orange, Aqua, Brown, Green, Rose, color.Black}
+var palette = []color.Color{color.White, Red, Blue, Yellow, Orange, Aqua, Brown, Green, Rose, color.Black}
 
 const (
 	whiteIndex = 0 // first color in palette
